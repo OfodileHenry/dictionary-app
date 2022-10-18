@@ -1,0 +1,39 @@
+.Dictionary section {
+  /* From https://css.glass */
+  /* background: rgba(243, 228, 226, 0.26); */
+  background: #b8b8b8 !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(243, 228, 226, 0.33);
+  padding: 30px;
+  margin: 20px 0;
+}
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #334944;
+  /* margin-bottom: 30px; */
+}
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  font-style: italic;
+}
+.search_dictionary {
+  width: 30%;
+  padding: 6px 4px;
+  font-size: 14px;
+  border-radius: 30px;
+  color: #334944;
+  border: 1px solid #ddd;
+}
